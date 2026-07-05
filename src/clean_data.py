@@ -533,7 +533,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument(
         "--output",
         type=Path,
-        default=Path("../Data/processed/nba_games_clean.csv"),
+        default=Path("Data/processed/nba_games_clean.csv"),
         help="Path for the cleaned game-level CSV.",
     )
 
